@@ -10,7 +10,7 @@ alertDialog(BuildContext context, ref) {
           content: const Text('Ticket has been sent to users successfully.'),
           actions: <Widget>[
             TextButton(
-              child: const Text('Ok'),
+              child: const Text('Ok '),
               onPressed: () {
                 Navigator.pop(context);
                 ref.read(bottomNavIndex.notifier).state = 0;
